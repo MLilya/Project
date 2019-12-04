@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Пока");
         System.out.println("lilya");
         System.out.println("renat");
+        int a = 5;
+        System.out.println(a);
     }
 }
