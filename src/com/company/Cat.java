@@ -12,6 +12,12 @@ public class Cat {
 
     }
 
+    public Cat (int age, String color, String name) {
+        this.age = age;
+        this.color = color;
+        this.name = name;
+    }
+
     public void setAge(int age) {
         if (age > 0) {
             this.age = age;
@@ -35,4 +41,13 @@ public class Cat {
         }
     }
 
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "age=" + age +
+                ", color='" + color + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
