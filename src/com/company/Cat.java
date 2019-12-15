@@ -2,8 +2,14 @@ package com.company;
 
 public class Cat {
     private int age;
-    String color = "Неизвестный цвет";
+    String color;
     String name;
+
+    public Cat() {
+        this.color = "Неизвестный цвет";
+        this.name = "Неизвестное имя";
+//    вот это конструктор
+    }
 
     public void setAge(int age) {
         if (age > 0) {
