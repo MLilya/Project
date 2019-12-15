@@ -6,7 +6,10 @@ public class Cat {
     String name;
 
     public void setAge(int age) {
-        this.age = age;
+        if (age > 0) {
+            this.age = age;
+
+        }
     }
 
     public int getAge() {
