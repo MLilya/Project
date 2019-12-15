@@ -9,6 +9,7 @@ public class Cat {
         this.color = "Неизвестный цвет";
         this.name = "Неизвестное имя";
 //    вот это конструктор
+
     }
 
     public void setAge(int age) {
