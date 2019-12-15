@@ -1,14 +1,22 @@
 package com.company;
 
 public class Cat {
-    int age;
+    private int age;
     String color;
     String name;
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
 
     public void meow() {
         System.out.println("Meow");
         repeate("Meow", 3);
-        repeate(color, 2);
+        this.repeate(color, 2);
     }
 
     private void repeate(String text, int count) {
