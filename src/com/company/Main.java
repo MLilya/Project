@@ -1,13 +1,16 @@
 package com.company;
 
 public class Main {
-    Cat cat1 = new Cat();
-    Cat cat2;
+
 
     public static void main(String[] args) {
-        Main main = new Main();
-        int b = 0;
-
+        Cat cat = new Cat();
+        cat.age = 2;
+        cat.color = "red";
+        cat.name = "Eva";
+        Cat cat2 = cat;
+        System.out.println(cat2.name);
+        cat.meow();
 
     }
 
