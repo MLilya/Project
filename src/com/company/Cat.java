@@ -2,7 +2,7 @@ package com.company;
 
 public class Cat {
     private int age;
-    String color;
+    String color = "Неизвестный цвет";
     String name;
 
     public void setAge(int age) {

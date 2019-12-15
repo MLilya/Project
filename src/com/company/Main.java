@@ -5,6 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
         Cat cat = new Cat();
+        System.out.println(cat.getAge());
+        System.out.println(cat.color);
+
         cat.setAge(2);
         cat.color = "red";
         cat.name = "Eva";
